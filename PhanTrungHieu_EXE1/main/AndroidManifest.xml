@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".Frm_Login"
+            android:label="@string/title_activity_frm__login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DangkyActivity"
+            android:label="@string/title_activity_dangky"></activity>
+        <activity
+            android:name=".Trangquanly"
+            android:label="@string/title_activity_trangquanly"></activity>
+        <activity
+            android:name=".MatHang"
+            android:label="@string/title_activity_mat_hang"></activity>
+        <activity
+            android:name=".SanPhamActivity"
+            android:label="@string/title_activity_san_pham"></activity>
+        <activity
+            android:name=".QLSanPhamActivity"
+            android:label="@string/title_activity_qlsan_pham"></activity>
+        <activity
+            android:name=".ThemHangActivity"
+            android:label="@string/title_activity_them_hang"></activity>
+        <activity
+            android:name=".DanhMucActivity"
+            android:label="@string/title_activity_danh_muc"></activity>
+        <activity
+            android:name=".ThemDanhMucActivity"
+            android:label="@string/title_activity_them_danh_muc"></activity>
+        <activity
+            android:name=".ListView_GiamGiaActivity"
+            android:label="@string/title_activity_list_view__giam_gia"></activity>
+        <activity
+            android:name=".Them_giam_giaActivity"
+            android:label="@string/title_activity_them_giam_gia"></activity>
+        <activity
+            android:name=".TaoDonHangActivity"
+            android:label="@string/title_activity_tao_don_hang"></activity>
+        <activity
+            android:name=".HoaDonActivity"
+            android:label="@string/title_activity_hoa_don"></activity>
+        <activity
+            android:name=".EditSPActivity"
+            android:label="@string/title_activity_edit_sp"></activity>
+        <activity
+            android:name=".ChiTietHDActivity"
+            android:label="@string/title_activity_chi_tiet_hd"></activity>
+        <activity
+            android:name=".SPsaphetActivity"
+            android:label="@string/title_activity_spsaphet"></activity>
+        <activity
+            android:name=".ThongkeActivity"
+            android:label="@string/title_activity_thongke"></activity>
+
+    </application>
+
+</manifest>

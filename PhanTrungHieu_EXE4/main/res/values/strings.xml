@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Call</string>
+    <string name="input_name">Nhập tên</string>
+    <string name="input_number">SĐT</string>
+    <string name="gender">Giới tính</string>
+    <string name="female">Nữ</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="call">Call</string>
+    <string name="send_message">Send Message</string>
+    <string name="call_or_message">Do you want to Call or Message?</string>
+</resources>

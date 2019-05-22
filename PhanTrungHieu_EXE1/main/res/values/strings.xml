@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MS3T</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_frm__login">Đăng nhập</string>
+    <string name="title_activity_dangky">Đăng ký</string>
+    <string name="title_activity_trangquanly">MS3T</string>
+    <string name="title_activity_mat_hang">Mặt hàng</string>
+    <string name="title_activity_san_pham">Sản phẩm</string>
+    <string name="title_activity_qlsan_pham">Quản lý sản phẩm</string>
+    <string name="title_activity_them_hang">Thêm sản phẩm</string>
+    <string name="title_activity_danh_muc">Danh mục</string>
+    <string name="title_activity_them_danh_muc">Danh mục mới</string>
+    <string name="title_activity_list_view__giam_gia">ListView_GiamGiaActivity</string>
+    <string name="title_activity_them_giam_gia">Them_giam_giaActivity</string>
+    <string name="title_activity_tao_don_hang">Tạo đơn hàng</string>
+    <string name="title_activity_hoa_don">Hóa đơn</string>
+    <string name="title_activity_edit_sp">Thay đổi thông tin sản phẩm</string>
+    <string name="title_activity_chi_tiet_hd">Chi tiết hóa đơn</string>
+    <string name="title_activity_spsaphet">Số lượng sản phẩm</string>
+    <string name="title_activity_thongke">Thống kê kinh doanh</string>
+
+</resources>
