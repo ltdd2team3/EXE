@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/trang"
+        android:icon="@drawable/trang"
+        app:showAsAction="always"
+        android:title="@string/brDen" />
+
+    <item
+        android:id="@+id/den"
+       android:icon="@drawable/troi"
+        app:showAsAction="always|withText"
+        android:title="@string/brTrang"/>
+
+
+
+</menu>

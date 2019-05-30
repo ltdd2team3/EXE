@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+  <TextView
+      style="@style/titleApp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Thông Tin Sinh Viên" />
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ Tên"/>
+    <EditText
+        style="@style/txtNhap"
+        android:id="@+id/hoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin:"/>
+    <EditText
+        style="@style/txtNhap"
+        android:id="@+id/thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      android:orientation="vertical">
+    <TextView
+
+        android:text="Giới Tính"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <RadioButton
+        android:checked="true"
+        android:id="@+id/rdnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nam"/>
+    <RadioButton
+
+        android:id="@+id/rdnu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nữ"/>
+    <RadioButton
+
+        android:id="@+id/rdkhac"
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+        android:text="Khác"/>
+    </RadioGroup>
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="vertical">
+    <Button
+        style="@style/pheptinh"
+        android:id="@+id/bt1"
+        android:text="Lưu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+  </LinearLayout>
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
