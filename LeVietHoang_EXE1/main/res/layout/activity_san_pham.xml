@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/management"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.myapplication.SanPhamActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="QUẢN LÝ SẢN PHẨM"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDanhMuc_SanPham"
+        android:layout_width="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="40dp"
+        android:background="#5882FA"
+        android:gravity="center"
+        android:text="Danh mục"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="320dp" />
+
+    <Button
+        android:id="@+id/btnGiamgia"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#5882FA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnDanhMuc_SanPham"
+        android:layout_marginTop="35dp"
+
+        android:gravity="center"
+        android:text="Số lượng sản phẩm"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="330dp" />
+
+    <Button
+        android:id="@+id/btnSanPham_SP"
+        android:layout_width="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/btnDanhMuc_SanPham"
+
+        android:layout_marginBottom="32dp"
+        android:layout_height="40dp"
+        android:background="#5882FA"
+        android:gravity="center"
+        android:text="Sản phẩm"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="320dp" />
+
+    <ImageButton
+        android:id="@+id/ibtnbacksanpham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGiamgia"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/back" />
+
+</RelativeLayout>
+
+
